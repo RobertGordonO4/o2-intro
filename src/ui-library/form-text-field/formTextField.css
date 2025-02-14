@@ -1,0 +1,11 @@
+.o2-textfield-label-container {
+  display: flex;
+}
+
+.o2-textfield-container {
+  width: 400px;
+}
+
+.o2-textfield {
+  text-align: left;
+}
