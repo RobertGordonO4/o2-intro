@@ -11,6 +11,7 @@ export const FormTextField: FC<FormTextFieldProps> = ({
   secondaryLabel, 
   textarea, 
   select, 
+  placeholder,
   options = [],
 }) => {
   const theme = useTheme()
@@ -31,6 +32,7 @@ export const FormTextField: FC<FormTextFieldProps> = ({
             rows={4}
             select={select}
             className="o2-textfield"
+            placeholder={placeholder}
           >
             {select && options.map((option: { value: string | number; label: string }) => (
               <MenuItem key={option.value} value={option.value}>

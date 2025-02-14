@@ -38,6 +38,7 @@ export const DemoForm: FC = () => {
           control={control}
           name="comment"
           label="Comment"
+          placeholder="Blablabla..."
           textarea
         />  
       </Stack>

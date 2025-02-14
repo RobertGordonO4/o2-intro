@@ -19,6 +19,10 @@ export type FormTextFieldProps = {
    */
   secondaryLabel?: string
   /**
+   * Optional: Placeholder string to be displayed in the field
+   */
+  placeholder?: string
+  /**
    * Optional: bool to use the textarea/multiline version of a TextField
    */
   textarea?: boolean

@@ -122,7 +122,7 @@ export const theme = createTheme({
       styleOverrides: {
         root: ({ theme }) => ({
           gap: theme.spacing("xs"),
-          padding: `${theme.spacing("s")} ${theme.spacing("xs")} ${theme.spacing("s")} ${theme.spacing("m")}`,
+          padding: `${theme.spacing("s")} ${theme.spacing("xs")} ${theme.spacing("s")} ${theme.spacing("m")} !important`,
           borderRadius: "12px",
           height: "48px",
           minHeight: "48px",
@@ -140,6 +140,7 @@ export const theme = createTheme({
             border: `3px solid ${theme.palette.coreRed[600]}`,
           },
           "& input": {
+            padding: 0,
             caretColor: theme.palette.o2Blue[500],
           },
           "& .MuiOutlinedInput-notchedOutline": {
